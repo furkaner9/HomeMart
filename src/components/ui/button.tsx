@@ -2,7 +2,7 @@ import React from "react";
 
 interface ButtonProps {
   children: React.ReactNode;
-  variant?: "primary" | "secondary" | "outline";
+  variant?: "primary" | "secondary" | "outline" | "myButton";
   size?: "sm" | "md" | "lg";
   fullWidth?: boolean;
   type?: "button" | "submit" | "reset";
@@ -31,6 +31,7 @@ const Button: React.FC<ButtonProps> = ({
       "bg-gray-200 text-gray-800 hover:bg-gray-300 focus:ring-gray-500",
     outline:
       "bg-white text-indigo-600 border border-indigo-600 hover:bg-indigo-50 focus:ring-indigo-500",
+    myButton: "bg-green-500 text-white hover:bg-green-600 focus:ring-green-500",
   };
 
   const sizeClasses = {

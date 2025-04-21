@@ -19,8 +19,9 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <body className={inter.className}>
+        <Header />
+
         <div className="min-h-screen flex flex-col">
-          <Header />
           <main className="flex-grow container mx-auto px-4 py-8">
             {children}
           </main>

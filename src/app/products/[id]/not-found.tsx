@@ -10,7 +10,7 @@ export default function ProductNotFound() {
       </p>
       <div className="flex justify-center">
         <Link href="/products">
-          <Button variant="primary" size="lg">
+          <Button variant="myButton" size="lg">
             Tüm Ürünlere Dön
           </Button>
         </Link>
