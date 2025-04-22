@@ -3,6 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
 
+
 const Products = ({ product }: { product: { id: string; images: string[]; title: string; category: string; price: number; inventory: number } }) => {
   return (
 <div className="border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
